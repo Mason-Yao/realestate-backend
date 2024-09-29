@@ -1,0 +1,6 @@
+{
+  "environment": "ryan",
+  "aws_region": "ap-southeast-2",
+  "dynamodb_table_name": "CRM-ryan",
+  "bucket_name": "crm-ryan-files.cyberlark.com.au"
+}

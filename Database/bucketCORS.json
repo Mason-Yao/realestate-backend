@@ -1,0 +1,11 @@
+{
+  "CORSRules": [
+    {
+      "AllowedOrigins": ["*.cyberlark.com.au", "http://localhost:5173"],
+      "AllowedHeaders": ["*"],
+      "AllowedMethods": ["PUT", "HEAD", "GET", "DELETE"],
+      "MaxAgeSeconds": 3000,
+      "ExposeHeaders": []
+    }
+  ]
+}

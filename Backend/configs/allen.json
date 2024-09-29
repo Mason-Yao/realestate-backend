@@ -1,0 +1,6 @@
+{
+  "environment": "allen",
+  "aws_region": "ap-southeast-2",
+  "dynamodb_table_name": "CRM-allen",
+  "bucket_name": "crm-allen-files.cyberlark.com.au"
+}

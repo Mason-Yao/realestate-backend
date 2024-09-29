@@ -1,0 +1,14 @@
+!jest.config.js
+*.d.ts
+node_modules
+.DS_Store
+.build
+.tmp.json
+.table.json
+
+
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+

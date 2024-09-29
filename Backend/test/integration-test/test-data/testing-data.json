@@ -1,0 +1,58 @@
+{
+  "client": {
+    "testUser": {
+      "name": "Test User",
+      "dob": "01/01/1990",
+      "gender": "Male",
+      "email": "test@user.com",
+      "phone": "0123456789",
+      "social": [
+        {
+          "name": "Wechat",
+          "value": "wechat-account"
+        },
+        { "name": "Redbook", "value": "redbook-account" }
+      ],
+      "visa": "Citizen",
+      "category": "category_0",
+      "knownBy": "Friend",
+      "notes": "wants to buy house this year.",
+      "createdBy": "Ryan",
+      "properties": [],
+      "relationships": null,
+      "reminder": {
+        "name": "Test Reminder",
+        "description": "This is a test reminder.",
+        "lastModifiedDate": "2025-06-30T00:00:00.000Z",
+        "createdBy": "Ryan"
+      }
+    },
+    "modifiedUser": {
+      "name": "Modified User",
+      "dob": "20/10/2000",
+      "gender": "Female",
+      "email": "test@usermodified.com",
+      "phone": "2847562648",
+      "social": [
+        {
+          "name": "Wechat",
+          "value": "wechat-account"
+        },
+        { "name": "Redbook", "value": "redbook-account" }
+      ],
+      "visa": "Citizen",
+      "category": "Red",
+      "knownBy": "Friend",
+      "notes": "wants to buy house next year.",
+      "createdBy": "Ryan",
+      "properties": [],
+      "relationships": null,
+      "reminder": {
+        "name": "Modified Test Reminder",
+        "description": "This is a modified reminder.",
+        "lastModifiedDate": "2025-06-30T00:00:00.000Z",
+        "createdBy": "Ryan"
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "PK": { "S": "Property" },
+  "id": { "S": "2" },
+  "street": { "S": "1404/62 Logan Road" },
+  "suburb": { "S": "Woolloongabba" },
+  "postcode": { "S": "4102" },
+  "state": { "S": "QLD" },
+  "type": { "S": "apartment" },
+  "status": { "S": "selling" },
+  "sourceType": { "S": "established" },
+  "cityCouncil": { "S": "Queenland" },
+  "yearBuilt": { "N": "2011" },
+  "coordinates": {
+    "M": { "lat": { "N": "-27.4885" }, "lng": { "N": "153.0382" } }
+  },
+  "bedrooms": { "N": "2" },
+  "bathrooms": { "N": "2" },
+  "carSpaces": { "N": "1" },
+  "houseArea": { "N": "98" },
+  "landArea": { "N": "100" },
+  "housePrice": { "N": "799000" },
+  "createdBy": { "S": "dave" },
+  "createdDate": { "S": "2023-07-11T11:14:18.148Z" },
+  "description": { "S": "This is testing Property 02." },
+  "agent": { "S": "Anny" },
+  "POIs": {
+    "L": [
+      {
+        "M": {
+          "recordName": { "S": "Woolloongabba Place Park" },
+          "coordinates": {
+            "M": { "lat": { "N": "-27.4859" }, "lng": { "N": "153.0362" } }
+          },
+          "address": { "S": "810 Stanley St, Woolloongabba QLD 4102" }
+        }
+      },
+      {
+        "M": {
+          "recordName": { "S": "East Brisbane State School" },
+          "coordinates": {
+            "M": { "lat": { "N": "-27.4862" }, "lng": { "N": "153.0397" } }
+          },
+          "address": { "S": "56 Wellington Rd, East Brisbane QLD 4169" }
+        }
+      }
+    ]
+  },
+  "files": {
+    "L": [
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property02/1.jpg"
+          },
+          "description": { "S": "1.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property02/2.jpg"
+          },
+          "description": { "S": "2.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property02/3.jpg"
+          },
+          "description": { "S": "3.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property02/4.jpg"
+          },
+          "description": { "S": "4.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property02/5.jpg"
+          },
+          "description": { "S": "5.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property02/6.jpg"
+          },
+          "description": { "S": "6.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property02/7.jpg"
+          },
+          "description": { "S": "7.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property02/8.jpg"
+          },
+          "description": { "S": "8.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property02/9.jpg"
+          },
+          "description": { "S": "9.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property02/10.jpg"
+          },
+          "description": { "S": "10.jpg" }
+        }
+      }
+    ]
+  }
+}

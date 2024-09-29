@@ -1,0 +1,114 @@
+{
+  "request": {
+    "add": {
+      "resource": "aws-cloudfront",
+      "isBase64Encoded": false,
+      "httpMethod": "POST",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer XYZ",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) Chrome/58.0.3029.110 Safari/537.3"
+      },
+      "path": "/add-client"
+    },
+    "getByID": {
+      "resource": "aws-cloudfront",
+      "isBase64Encoded": false,
+      "httpMethod": "GET",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer XYZ",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) Chrome/58.0.3029.110 Safari/537.3"
+      },
+      "path": "/client/:id"
+    },
+    "list": {
+      "resource": "aws-cloudfront",
+      "isBase64Encoded": false,
+      "httpMethod": "GET",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer XYZ",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) Chrome/58.0.3029.110 Safari/537.3"
+      },
+      "path": "/client"
+    },
+    "update": {
+      "resource": "aws-cloudfront",
+      "isBase64Encoded": false,
+      "httpMethod": "PUT",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer XYZ",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) Chrome/58.0.3029.110 Safari/537.3"
+      },
+      "path": "/update-client/:id"
+    },
+    "deleteByID": {
+      "resource": "aws-cloudfront",
+      "isBase64Encoded": false,
+      "httpMethod": "DELETE",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer XYZ",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) Chrome/58.0.3029.110 Safari/537.3"
+      },
+      "path": "/delete-client/:id"
+    },
+    "query": {
+      "resource": "aws-cloudfront",
+      "isBase64Encoded": false,
+      "httpMethod": "GET",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer XYZ",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) Chrome/58.0.3029.110 Safari/537.3"
+      },
+      "path": "/client/search"
+    }
+  },
+  "client": {
+    "testUser": {
+      "name": "Test User",
+      "dob": "01/01/1990",
+      "gender": "Male",
+      "email": "test@user.com",
+      "phone": "0123456789",
+      "social": [
+        {
+          "name": "Wechat",
+          "value": "wechat-account"
+        },
+        { "name": "Redbook", "value": "redbook-account" }
+      ],
+      "visa": "Citizen",
+      "category": "Gold",
+      "knownBy": "Friend",
+      "notes": "wants to buy house this year.",
+      "createdBy": "Ryan",
+      "properties": [],
+      "relationships": {}
+    },
+    "modifiedUser": {
+      "name": "Modified User",
+      "dob": "20/10/2000",
+      "gender": "Female",
+      "email": "test@usermodified.com",
+      "phone": "2847562648",
+      "social": [
+        {
+          "name": "Wechat",
+          "value": "wechat-account"
+        },
+        { "name": "Redbook", "value": "redbook-account" }
+      ],
+      "visa": "Citizen",
+      "category": "Red",
+      "knownBy": "Friend",
+      "notes": "wants to buy house next year.",
+      "createdBy": "Ryan",
+      "properties": [],
+      "relationships": {}
+    }
+  }
+}

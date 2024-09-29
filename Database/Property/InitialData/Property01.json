@@ -1,0 +1,132 @@
+{
+  "PK": { "S": "Property" },
+  "id": { "S": "1" },
+  "street": { "S": "14 Goldsbrough Road" },
+  "suburb": { "S": "Taringa" },
+  "postcode": { "S": "4068" },
+  "state": { "S": "QLD" },
+  "type": { "S": "house" },
+  "status": { "S": "selling" },
+  "sourceType": { "S": "established" },
+  "cityCouncil": { "S": "Queenland" },
+  "yearBuilt": { "N": "2005" },
+  "coordinates": {
+    "M": { "lat": { "N": "-17.4918" }, "lng": { "N": "152.9806" } }
+  },
+  "bedrooms": { "N": "5" },
+  "bathrooms": { "N": "3.5" },
+  "carSpaces": { "N": "2" },
+  "houseArea": { "N": "250" },
+  "landArea": { "N": "400" },
+  "housePrice": { "N": "2500000" },
+  "createdBy": { "S": "dave" },
+  "createdDate": { "S": "2023-07-10T11:14:18.148Z" },
+  "description": { "S": "This is testing Property 01." },
+  "agent": { "S": "Dave" },
+  "POIs": {
+    "L": [
+      {
+        "M": {
+          "recordName": { "S": "Indooroopilly Shopping Centre" },
+          "coordinates": {
+            "M": { "lat": { "N": "-27.4992" }, "lng": { "N": "152.9723" } }
+          },
+          "address": { "S": "322 Moggill Rd, Indooroopilly QLD 4068" }
+        }
+      },
+      {
+        "M": {
+          "recordName": { "S": "Toowong Village" },
+          "coordinates": {
+            "M": { "lat": { "N": "-27.4847" }, "lng": { "N": "152.9928" } }
+          },
+          "address": { "S": "9 Sherwood Rd, Toowong QLD 4066" }
+        }
+      }
+    ]
+  },
+  "files": {
+    "L": [
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property01/1.jpg"
+          },
+          "description": { "S": "1.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property01/2.jpg"
+          },
+          "description": { "S": "2.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property01/3.jpg"
+          },
+          "description": { "S": "3.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property01/4.jpg"
+          },
+          "description": { "S": "4.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property01/5.jpg"
+          },
+          "description": { "S": "5.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property01/6.jpg"
+          },
+          "description": { "S": "6.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property01/7.jpg"
+          },
+          "description": { "S": "7.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property01/8.jpg"
+          },
+          "description": { "S": "8.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property01/9.jpg"
+          },
+          "description": { "S": "9.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property01/10.jpg"
+          },
+          "description": { "S": "10.jpg" }
+        }
+      }
+    ]
+  }
+}

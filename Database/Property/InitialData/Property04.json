@@ -1,0 +1,61 @@
+{
+  "PK": { "S": "Property" },
+  "id": { "S": "4" },
+  "street": { "S": "12/265 Palmer Street" },
+  "suburb": { "S": "Darlinghurst" },
+  "postcode": { "S": "2010" },
+  "state": { "S": "NSW" },
+  "type": { "S": "unit" },
+  "status": { "S": "selling" },
+  "sourceType": { "S": "new" },
+  "cityCouncil": { "S": "Sydney" },
+  "yearBuilt": { "N": "2024" },
+  "coordinates": {
+    "M": { "lat": { "N": "-33.8790" }, "lng": { "N": "151.2158" } }
+  },
+  "bedrooms": { "N": "1" },
+  "bathrooms": { "N": "1" },
+  "carSpaces": { "N": "1" },
+  "houseArea": { "N": "45" },
+  "landArea": { "N": "300" },
+  "housePrice": { "N": "1515000" },
+  "createdBy": { "S": "dave" },
+  "createdDate": { "S": "2023-07-11T11:14:18.148Z" },
+  "description": { "S": "This is testing Property 04." },
+  "agent": { "S": "Lily" },
+  "settlementTime": { "S": "July 2024" },
+  "POIs": {
+    "L": [
+      {
+        "M": {
+          "recordName": { "S": "Harmony Park" },
+          "coordinates": {
+            "M": { "lat": { "N": "-33.8795" }, "lng": { "N": "151.2117" } }
+          },
+          "address": { "S": "147 Goulburn St, Surry Hills NSW 2010" }
+        }
+      },
+      {
+        "M": {
+          "recordName": { "S": "Crown Street Public School" },
+          "coordinates": {
+            "M": { "lat": { "N": "-33.8819" }, "lng": { "N": "151.2149" } }
+          },
+          "address": { "S": "356 Crown St, Surry Hills NSW 2010" }
+        }
+      }
+    ]
+  },
+  "files": {
+    "L": [
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property01/11.jpg"
+          },
+          "description": { "S": "11.jpg" }
+        }
+      }
+    ]
+  }
+}

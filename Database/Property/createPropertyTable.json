@@ -1,0 +1,44 @@
+{
+    "TableName": "${CRM_PROPERTY_TABLE_NAME}",
+    "KeySchema": [
+      { "AttributeName": "PK", "KeyType": "HASH" },
+      { "AttributeName": "id", "KeyType": "RANGE" }
+    ],
+    "AttributeDefinitions": [
+      { "AttributeName": "PK", "AttributeType": "S" },
+      { "AttributeName": "id", "AttributeType": "S" },
+      { "AttributeName": "suburb", "AttributeType": "S" },
+      { "AttributeName": "state", "AttributeType": "S" },
+      { "AttributeName": "createdDate", "AttributeType": "S" }
+    ],
+    "ProvisionedThroughput": {
+      "ReadCapacityUnits": 1,
+      "WriteCapacityUnits": 1
+    },
+    "LocalSecondaryIndexes": [
+      {
+        "IndexName": "suburb-index",
+        "KeySchema": [
+          { "AttributeName": "PK", "KeyType": "HASH" },
+          { "AttributeName": "suburb", "KeyType": "RANGE" }
+        ],
+        "Projection": { "ProjectionType": "ALL" }
+      },
+      {
+        "IndexName": "state-index",
+        "KeySchema": [
+          { "AttributeName": "PK", "KeyType": "HASH" },
+          { "AttributeName": "state", "KeyType": "RANGE" }
+        ],
+        "Projection": { "ProjectionType": "ALL" }
+      },
+      {
+        "IndexName": "create-date-index",
+        "KeySchema": [
+          { "AttributeName": "PK", "KeyType": "HASH" },
+          { "AttributeName": "createdDate", "KeyType": "RANGE" }
+        ],
+        "Projection": { "ProjectionType": "ALL" }
+      }
+    ]
+}

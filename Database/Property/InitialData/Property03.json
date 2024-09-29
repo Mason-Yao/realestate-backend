@@ -1,0 +1,133 @@
+{
+  "PK": { "S": "Property" },
+  "id": { "S": "3" },
+  "street": { "S": "236 Bourke Street" },
+  "suburb": { "S": "Darlinghurst" },
+  "postcode": { "S": "2010" },
+  "state": { "S": "NSW" },
+  "type": { "S": "house" },
+  "status": { "S": "selling" },
+  "sourceType": { "S": "new" },
+  "cityCouncil": { "S": "Sydney" },
+  "yearBuilt": { "N": "2024" },
+  "coordinates": {
+    "M": { "lat": { "N": "-33.8770" }, "lng": { "N": "151.2176" } }
+  },
+  "bedrooms": { "N": "5" },
+  "bathrooms": { "N": "5" },
+  "carSpaces": { "N": "1" },
+  "houseArea": { "N": "155" },
+  "landArea": { "N": "300" },
+  "housePrice": { "N": "800000" },
+  "createdBy": { "S": "dave" },
+  "createdDate": { "S": "2023-07-11T11:14:18.148Z" },
+  "description": { "S": "This is testing Property 03." },
+  "agent": { "S": "Anny" },
+  "settlementTime": { "S": "2020-02-05" },
+  "POIs": {
+    "L": [
+      {
+        "M": {
+          "recordName": { "S": "Frazer Fountain Hyde Park" },
+          "coordinates": {
+            "M": { "lat": { "N": "-33.8747" }, "lng": { "N": "151.2121" } }
+          },
+          "address": { "S": "120 Elizabeth St, Sydney NSW 2000" }
+        }
+      },
+      {
+        "M": {
+          "recordName": { "S": "Darlinghurst Public School" },
+          "coordinates": {
+            "M": { "lat": { "N": "-33.8783" }, "lng": { "N": "151.2234" } }
+          },
+          "address": { "S": "Womerah Ave, Potts Point NSW 2011" }
+        }
+      }
+    ]
+  },
+  "files": {
+    "L": [
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property03/1.jpg"
+          },
+          "description": { "S": "1.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property03/2.jpg"
+          },
+          "description": { "S": "2.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property03/3.jpg"
+          },
+          "description": { "S": "3.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property03/4.jpg"
+          },
+          "description": { "S": "4.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property03/5.jpg"
+          },
+          "description": { "S": "5.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property03/6.jpg"
+          },
+          "description": { "S": "6.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property03/7.jpg"
+          },
+          "description": { "S": "7.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property03/8.jpg"
+          },
+          "description": { "S": "8.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property03/9.jpg"
+          },
+          "description": { "S": "9.jpg" }
+        }
+      },
+      {
+        "M": {
+          "path": {
+            "S": "https://d3fvrqyi015l6y.cloudfront.net/seedData/Property03/10.jpg"
+          },
+          "description": { "S": "10.jpg" }
+        }
+      }
+    ]
+  }
+}
